@@ -16,59 +16,94 @@ class CodeIQ{
     	 */
     	//記号を使う意味はない。空白のみには勝てるが末文字以外の文字も空白に勝てるからそっちの方が強い
     	int i = 0;
-    	Fighter fighter1 = new Fighter();
-    	Fighter fighter2 = new Fighter();
-    	int kaisu = 10000;
-    	for (i = 0; i < kaisu; i ++) {
-	    	
-	    	fighter1.InputData(" ZzZy9Z98zY8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9Yz;");
-	    	fighter2.InputData(" ZzZy9Z98zY8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9Yz;");
-	    	
-	    	//fighter2.InputData(fighter2.MakeRandomString());
-	    	
-	    	//System.out.println("hello world!");
-	    	Battle  battle = new  Battle();
-		    	//闘いのループ
-	    	while (fighter1.damage< fighter1.dataLength || fighter2.damage < fighter2.dataLength){
-	        	//System.out.println(fighter1.damage + ":" + fighter2.damage);
-	        	//System.out.println(fighter1.FighterString.substring(fighter1.damage, fighter1.dataLength));
-	        	//System.out.println(fighter2.FighterString.substring(fighter2.damage, fighter2.dataLength));
-	        	//System.out.println("");
-	        	if (fighter1.damage == fighter1.dataLength) break;
-	        	if (fighter2.damage == fighter2.dataLength) break;
-		    	battle.Fight(fighter1.GetPresentLetter(),	fighter2.GetPresentLetter());
-		    	if (battle.hantei == 1) {
-		    		fighter2.damage ++;
-		    	} else if (battle.hantei == 2) {
-		    		fighter1.damage ++;
-		    	} else if (battle.hantei == 3) {
-		    		fighter1.damage ++;
-		    		fighter2.damage ++;
-		    	} else {
-		    		System.out.println("例外が発生しました");
-		    	}
-	    	}
-		    	
-	    	//勝敗の表示
-	    	if(fighter1.damage < fighter2.damage) {
-	    		//System.out.println("チャンピオンの勝ち");
-	    		fighter1.win ++;
-	    		fighter2.lose ++;
-	    	} else if (fighter1.damage > fighter2.damage) {
-	    		//System.out.println("挑戦者の勝ち" + " : " + fighter1.damage + "/" +  fighter2.damage);
-	    		//System.out.println(fighter2.FighterString);
-	    		fighter1.lose ++;
-	    		fighter2.win ++;
-	    	} else {
-	    		//System.out.println("引き分け");
-	    		fighter1.draw ++;
-	    		fighter2.draw ++;
-	    	}
-	    	fighter1.ResetMyself();
-	    	fighter2.ResetMyself();
+    	int fighterNumber = 1001;
+    	int battleKaisu = 1;
+    	Fighter[] fighter = new Fighter[fighterNumber];
+    	fighter[0] = new Fighter();
+    	//fighter[0].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
+    	fighter[0].InputData("y YYY98YzZ  z9yzZ yZ 9Y 99z9ZZ9Y ZzZZZ8ZY8y 9ZY8989 z8 yY 8y 8Yzz8ZzYYz9Yy8Y88y");
+    	for (i = 1; i < fighterNumber; i ++) {//０番ファイターはチャンピオンとして別枠。雑魚はランダムで作っている。後で改良したい
+    		fighter[i] = new Fighter();
+    		fighter[i].InputData(fighter[i].MakeRandomString());
+    		//System.out.println(fighter[i].FighterString);
     	}
-    	//battle.PrintKekka();
-    	System.out.println((double)fighter1.win/(double)kaisu + "  :  " + fighter1.draw + " draw");
+    	//Fighter fighter[j] = new Fighter();
+    	//Fighter fighter[i] = new Fighter();
+    	int j = 0;
+    	for (j =0; j < fighterNumber ; j ++) {
+	    	for (i = j+1; i < fighterNumber; i ++) {
+		    	//System.out.println("j:" + j + " i:" + i);
+		    	fighter[j].ResetMyDamage();
+		    	fighter[i].ResetMyDamage();
+		    	//fighter[j].ResetAllMyself();
+		    	//fighter[i].ResetAllMyself();
+		    	//fighter[j].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
+	    		//fighter[j].InputData(fighter[j].MakeRandomString());
+		    	//fighter[i].InputData(fighter[i].MakeRandomString());
+		    	
+		    	//System.out.println("hello world!");
+		    	Battle  battle = new  Battle();
+			    	//闘いのループ
+		    	while (fighter[j].damage< fighter[j].dataLength || fighter[i].damage < fighter[i].dataLength){
+		    		/*
+		    		System.out.println(fighter[j].damage + ":" + fighter[i].damage);
+		        	System.out.println(fighter[j].FighterString.substring(fighter[j].damage, fighter[j].dataLength));
+		        	System.out.println(fighter[i].FighterString.substring(fighter[i].damage, fighter[i].dataLength));
+		        	System.out.println("");
+		        	*/
+		        	if (fighter[j].damage == fighter[j].dataLength || fighter[i].damage == fighter[i].dataLength) break;
+			    	battle.Fight(fighter[j].GetPresentLetter(),	fighter[i].GetPresentLetter());
+			    	if (battle.hantei == 1) {
+			    		fighter[i].damage ++;
+			    	} else if (battle.hantei == 2) {
+			    		fighter[j].damage ++;
+			    	} else if (battle.hantei == 3) {
+			    		fighter[j].damage ++;
+			    		fighter[i].damage ++;
+			    	} else {
+			    		System.out.println("例外が発生しました");
+			    	}
+		    	}
+			    	
+		    	//勝敗の表示
+		    	if (fighter[j].damage == fighter[i].damage) {
+		    		//System.out.println("引き分け");
+		    		fighter[j].draw ++;
+		    		fighter[i].draw ++;
+		    	} else if(fighter[j].damage < fighter[i].damage) {
+		    		//System.out.println("チャンピオンの勝ち");
+		    		fighter[j].win ++;
+		    		fighter[i].lose ++;
+		    	} else if (fighter[j].damage > fighter[i].damage) {
+		    		//System.out.println("挑戦者の勝ち" + " : " + fighter[j].damage + "/" +  fighter[i].damage);
+		    		//System.out.println(fighter[i].FighterString + "  " + fighter[i].damage);
+		    		fighter[j].lose ++;
+		    		fighter[i].win ++;
+		    	} else {
+		    		System.out.println("勝敗の判定に例外が発生しました");
+		    	}
+
+	    	}
+	    	//battle.PrintKekka();
+	    	//System.out.println((double)fighter[j].win/(double)(kaisu- fighter[j].draw) + "  :  " + fighter[j].draw + " draw");
+	    	//System.out.println((double)fighter[j].win/(double)(battleKaisu- fighter[j].draw));
+	    }
+    	double top = 0.0 ,second = 0.0;
+    	int topFighter = 0, secondFighter = 0;
+    	for(i = 0;i < fighterNumber; i++) {
+    		System.out.println("number:" + i + " win:" + fighter[i].win + " lose:" + fighter[i].lose + " draw:" + fighter[i].draw + "\t"+ fighter[i].Syouritsu(fighterNumber, i));
+    		if (fighter[i].Syouritsu(fighterNumber, i) > top) {
+    			second = top;
+    			secondFighter = topFighter;
+    			top = fighter[i].Syouritsu(fighterNumber, i);
+    			topFighter = i;
+    		}
+    	}
+    	System.out.println("Number" + topFighter + "\t rate =" + top);
+    	System.out.println(fighter[topFighter].FighterString);
+    	System.out.println("Number" + secondFighter + "\t rate =" + second);
+    	System.out.println(fighter[secondFighter].FighterString);
+    	
     }
     
 
@@ -224,11 +259,27 @@ class Fighter{
 		FighterData = inputdata.toCharArray();
 		dataLength = inputdata.length();
 	}
+	public double Syouritsu(long fighterNumber , long dare){
+		double syouritu = 0;
+		syouritu = (double)win / (double)(fighterNumber - 1 - draw );
+		return syouritu;
+	}
 	
+	public void ResetMyDamage(){
+		damage = 0;
+	}
 	public void ResetMyself(){
 		FighterString = "";
 		dataLength = 0;
 		damage = 0;
+	}
+	public void ResetAllMyself() {
+		FighterString = "";
+		dataLength = 0;
+		damage = 0;
+		win = 0;
+		lose = 0;
+		draw = 0;
 	}
 	public char GetPresentLetter() {
 		return FighterData[damage];
