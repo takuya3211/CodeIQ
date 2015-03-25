@@ -15,16 +15,26 @@ class CodeIQ{
 		・文字の種類が同じ場合は文字コードが大きいほうが勝ち。 
     	 */
     	//記号を使う意味はない。空白のみには勝てるが末文字以外の文字も空白に勝てるからそっちの方が強い
+int k = 0;
+Dna newFighter = new Dna();
+for (k = 0; k < 200; k ++){
     	int i = 0;
     	int fighterNumber = 1001;
     	int battleKaisu = 1;
+
     	Fighter[] fighter = new Fighter[fighterNumber];
+
     	fighter[0] = new Fighter();
     	//fighter[0].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
-    	fighter[0].InputData("y YYY98YzZ  z9yzZ yZ 9Y 99z9ZZ9Y ZzZZZ8ZY8y 9ZY8989 z8 yY 8y 8Yzz8ZzYYz9Yy8Y88y");
+    	if (k  == 0 ) {
+    		fighter[0].inputData("Nara Sadahiro is genius, Ito Takuya is not genuius.");
+    	}else {
+    		fighter[0].inputData(newFighter.getChildString());
+    	}
+    	//System.out.println("former champ = " + fighter[0].FighterString);
     	for (i = 1; i < fighterNumber; i ++) {//０番ファイターはチャンピオンとして別枠。雑魚はランダムで作っている。後で改良したい
     		fighter[i] = new Fighter();
-    		fighter[i].InputData(fighter[i].MakeRandomString());
+    		fighter[i].inputData(fighter[i].makeRandomString());
     		//System.out.println(fighter[i].FighterString);
     	}
     	//Fighter fighter[j] = new Fighter();
@@ -33,8 +43,8 @@ class CodeIQ{
     	for (j =0; j < fighterNumber ; j ++) {
 	    	for (i = j+1; i < fighterNumber; i ++) {
 		    	//System.out.println("j:" + j + " i:" + i);
-		    	fighter[j].ResetMyDamage();
-		    	fighter[i].ResetMyDamage();
+		    	fighter[j].resetMyDamage();
+		    	fighter[i].resetMyDamage();
 		    	//fighter[j].ResetAllMyself();
 		    	//fighter[i].ResetAllMyself();
 		    	//fighter[j].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
@@ -52,7 +62,7 @@ class CodeIQ{
 		        	System.out.println("");
 		        	*/
 		        	if (fighter[j].damage == fighter[j].dataLength || fighter[i].damage == fighter[i].dataLength) break;
-			    	battle.Fight(fighter[j].GetPresentLetter(),	fighter[i].GetPresentLetter());
+			    	battle.fight(fighter[j].getPresentLetter(),	fighter[i].getPresentLetter());
 			    	if (battle.hantei == 1) {
 			    		fighter[i].damage ++;
 			    	} else if (battle.hantei == 2) {
@@ -91,27 +101,29 @@ class CodeIQ{
     	double top = 0.0 ,second = 0.0;
     	int topFighter = 0, secondFighter = 0;
     	for(i = 0;i < fighterNumber; i++) {
-    		System.out.println("number:" + i + " win:" + fighter[i].win + " lose:" + fighter[i].lose + " draw:" + fighter[i].draw + "\t"+ fighter[i].Syouritsu(fighterNumber, i));
-    		if (fighter[i].Syouritsu(fighterNumber, i) > top) {
+    		if ( i == 0) System.out.println("number:" + i + " win:" + fighter[i].win + " lose:" + fighter[i].lose + " draw:" + fighter[i].draw + "\t"+ fighter[i].winningRate(fighterNumber, i));
+    		if (fighter[i].winningRate(fighterNumber, i) > top) {
     			second = top;
     			secondFighter = topFighter;
-    			top = fighter[i].Syouritsu(fighterNumber, i);
+    			top = fighter[i].winningRate(fighterNumber, i);
     			topFighter = i;
     		}
     	}
-    	System.out.println("Number" + topFighter + "\t rate =" + top);
-    	System.out.println(fighter[topFighter].FighterString);
-    	System.out.println("Number" + secondFighter + "\t rate =" + second);
-    	System.out.println(fighter[secondFighter].FighterString);
-    	
+    	if(topFighter == 0) System.out.println("-----Champion is Champion!-----");
+    	//System.out.println("Number" + topFighter + "\t rate =" + top + ": " + "Number" + secondFighter + "\t rate =" + second);
+    	//System.out.println(fighter[topFighter].FighterString);
+//    	System.out.println("Number" + secondFighter + "\t rate =" + second);
+    	//System.out.println(fighter[secondFighter].FighterString);
+    	//System.out.println("child");
+    	System.out.println(newFighter.makeChild(fighter[topFighter].FighterString,fighter[secondFighter].FighterString));
     }
     
-
+    }
 }
 
 class Battle {
 	static char hantei = 0; //0は例外、1はchampionの勝ち、2はchampionの負け、3は引き分け
-    public void Fight(char champion, char challenger) {
+    public void fight(char champion, char challenger) {
 
     	if (champion == 32) {//チャンピオンがスペースだった場合
     		hantei = 2; //とりあえず負けのフラグ
@@ -254,26 +266,27 @@ class Fighter{
 	long lose = 0;
 	long draw = 0;
 	final static char[] CharList= new char[] {' ', '8', '9', 'Y', 'Z', 'y', 'z'};
-	public void InputData(String inputdata){
+	
+	public void inputData(String inputdata){
 		FighterString = inputdata;
 		FighterData = inputdata.toCharArray();
 		dataLength = inputdata.length();
 	}
-	public double Syouritsu(long fighterNumber , long dare){
+	public double winningRate(long fighterNumber , long dare){
 		double syouritu = 0;
 		syouritu = (double)win / (double)(fighterNumber - 1 - draw );
 		return syouritu;
 	}
 	
-	public void ResetMyDamage(){
+	public void resetMyDamage(){
 		damage = 0;
 	}
-	public void ResetMyself(){
+	public void resetMyself(){
 		FighterString = "";
 		dataLength = 0;
 		damage = 0;
 	}
-	public void ResetAllMyself() {
+	public void resetAllMyself() {
 		FighterString = "";
 		dataLength = 0;
 		damage = 0;
@@ -281,11 +294,11 @@ class Fighter{
 		lose = 0;
 		draw = 0;
 	}
-	public char GetPresentLetter() {
+	public char getPresentLetter() {
 		return FighterData[damage];
 	}
 	
-	public String MakeRandomString(){
+	public String makeRandomString(){
     	Random rnd = new Random();
     	String s1 = "";
     	StringBuffer buf = new StringBuffer();
@@ -300,3 +313,34 @@ class Fighter{
 
 }
 
+class Dna {
+	String child = "";
+	public String makeChild(String father, String mother){
+		child="";
+		child = onePointCrossing(father, mother);
+		return child;
+	}
+	
+	public String onePointCrossing(String father , String mother) {
+		child = "";
+		if (father.length() != mother.length()) System.out.println("父と母の文字数が一致していません");
+		Random rnd = new Random();
+		int crossingPosition = rnd.nextInt(father.length());
+    	StringBuffer buf = new StringBuffer();
+    	
+    	//ランダムに父と母のDNAをどっちが先にするかを決める
+		if(rnd.nextBoolean()) {
+	    	buf.append(father.substring(0, crossingPosition));
+	    	buf.append(mother.substring(crossingPosition ,mother.length()));
+		}else {
+	    	buf.append(mother.substring(0, crossingPosition));
+	    	buf.append(father.substring(crossingPosition ,father.length()));
+		}
+		child = buf.toString();
+		return child;
+	}
+	
+	public String getChildString(){
+		return child;
+	}
+}
