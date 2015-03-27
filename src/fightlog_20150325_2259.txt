@@ -1,0 +1,6 @@
+number:0 win:976 lose:15 draw:9	0.9848637739656912
+9Y9z9Zy8 9yYzz8 98Yz 8Y998zy 9Z9 ZyZz8z 9Yzy8zz8 z8Zz z8Y9y z8yZy9Z yZ9Y9yY8
+number:0 win:971 lose:21 draw:8	0.9788306451612904
+9Y9z9Zy8 9yYzz8 98Yz 8Y998zy 9Z9 ZyZz8z 9Yzy8zz8 z8Zz z8Y9y z8yZy9Z yZ9Y9yY8
+number:0 win:966 lose:27 draw:7	0.972809667673716
+9Y9z9Zy8 9yYzz8 98Yz 8Y998zy 9Z9 ZyZz8z 9Yzy8zz8 z8Zz z8Y9y z8yZy9Z yZ9Y9yY8

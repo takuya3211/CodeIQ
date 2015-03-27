@@ -1,6 +1,1 @@
-say "hello, world!" # ZzZy9Z98zY8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9Yz;
-say "hello, world!" # ZzZy9Z98zY8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9Yz;
-say "hello, world!" #ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9Yz;
-print "hello, world!"#y8y8yzYZyYyY8y8Y8Y8y8YyYZz8yY8yYyYy8YyzY8Y8Yy8yY8Y8y8Y8y8ZYyzYy9y8Y8y8yYy8Y8Y
-begin;writeln("hello, world!");end.(* 8Y 9 Z Z 9z y 8 9 Z Z Z z Z z Y yZ z8 Y z 9 Y Y Y9 Y yz 8Zz*)
-8Y8y8Y8y8ZYyzYy9y8Y8y8yYy8Y8Y
+ZzZyz9z88zy8Z9 zZy8 Zy8yZyZyYz9z88Y 8z8zZy8z89Y9Y9Y 9Z YY9Y 9z8Y8y9Y 9Z8ZyZz8Zz 03/26日段階で21位

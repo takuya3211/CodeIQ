@@ -4,9 +4,12 @@ import java.util.List;
 import java.util.Properties;
 import java.util.Random;
 import java.lang.StringBuffer;
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 class CodeIQ{
-    public static void main(String[] args){
+    public static void main(String[] args) throws IOException{
     	//ASCIIコードで32(0x20)～126(0x7e)が使用可能
     	/*
     	 ・数字, 大文字, 小文字 が グー, チョキ, パー の関係。
@@ -15,110 +18,137 @@ class CodeIQ{
 		・文字の種類が同じ場合は文字コードが大きいほうが勝ち。 
     	 */
     	//記号を使う意味はない。空白のみには勝てるが末文字以外の文字も空白に勝てるからそっちの方が強い
-int k = 0;
-Dna newFighter = new Dna();
-for (k = 0; k < 200; k ++){
-    	int i = 0;
-    	int fighterNumber = 1001;
-    	int battleKaisu = 1;
+		int k = 0;
+		Dna newFighter = new Dna();
+		Date d = new Date();
+		String fileName = "/Users/takuya/Dropbox/program/workspace/CodeIQ/src/" + "fightlog_" + toString(d) + ".txt";//ファイル名は日時を使う
+		File file = new File(fileName);
+		FileWriter filewriter = new FileWriter(file,true);
 
-    	Fighter[] fighter = new Fighter[fighterNumber];
-
-    	fighter[0] = new Fighter();
-    	//fighter[0].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
-    	if (k  == 0 ) {
-    		fighter[0].inputData("Nara Sadahiro is genius, Ito Takuya is not genuius.");
-    	}else {
-    		fighter[0].inputData(newFighter.getChildString());
-    	}
-    	//System.out.println("former champ = " + fighter[0].FighterString);
-    	for (i = 1; i < fighterNumber; i ++) {//０番ファイターはチャンピオンとして別枠。雑魚はランダムで作っている。後で改良したい
-    		fighter[i] = new Fighter();
-    		fighter[i].inputData(fighter[i].makeRandomString());
-    		//System.out.println(fighter[i].FighterString);
-    	}
-    	//Fighter fighter[j] = new Fighter();
-    	//Fighter fighter[i] = new Fighter();
-    	int j = 0;
-    	for (j =0; j < fighterNumber ; j ++) {
-	    	for (i = j+1; i < fighterNumber; i ++) {
-		    	//System.out.println("j:" + j + " i:" + i);
-		    	fighter[j].resetMyDamage();
-		    	fighter[i].resetMyDamage();
-		    	//fighter[j].ResetAllMyself();
-		    	//fighter[i].ResetAllMyself();
-		    	//fighter[j].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
-	    		//fighter[j].InputData(fighter[j].MakeRandomString());
-		    	//fighter[i].InputData(fighter[i].MakeRandomString());
-		    	
-		    	//System.out.println("hello world!");
-		    	Battle  battle = new  Battle();
-			    	//闘いのループ
-		    	while (fighter[j].damage< fighter[j].dataLength || fighter[i].damage < fighter[i].dataLength){
-		    		/*
-		    		System.out.println(fighter[j].damage + ":" + fighter[i].damage);
-		        	System.out.println(fighter[j].FighterString.substring(fighter[j].damage, fighter[j].dataLength));
-		        	System.out.println(fighter[i].FighterString.substring(fighter[i].damage, fighter[i].dataLength));
-		        	System.out.println("");
-		        	*/
-		        	if (fighter[j].damage == fighter[j].dataLength || fighter[i].damage == fighter[i].dataLength) break;
-			    	battle.fight(fighter[j].getPresentLetter(),	fighter[i].getPresentLetter());
-			    	if (battle.hantei == 1) {
-			    		fighter[i].damage ++;
-			    	} else if (battle.hantei == 2) {
-			    		fighter[j].damage ++;
-			    	} else if (battle.hantei == 3) {
-			    		fighter[j].damage ++;
-			    		fighter[i].damage ++;
-			    	} else {
-			    		System.out.println("例外が発生しました");
+		
+		for (k = 0; k < 100; k ++){
+		    	int i = 0;
+		    	int fighterNumber = 1001;
+		    	int battleKaisu = 1;
+		
+		    	Fighter[] fighter = new Fighter[fighterNumber];
+		
+		    	fighter[0] = new Fighter();
+		    	//fighter[0].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
+		    	if (k  == 0 ) {
+		    		//fighter[0].inputData("ZzZyz9z88zy8Z9 zZy8 Zy8yZyZyYz9z88Y 8z8zZy8z89Y9Y9Y 9Z YY9Y 9z8Y8y9Y 9Z8ZyZz8Zz");
+		    		fighter[0].inputData(fighter[i].makeRandomString());
+		    		System.out.println(fighter[0].FighterString);
+		    	}else {
+		    		fighter[0].inputData(newFighter.getChildString());
+		    	}
+		    	//System.out.println("former champ = " + fighter[0].FighterString);
+		    	for (i = 1; i < fighterNumber; i ++) {//０番ファイターはチャンピオンとして別枠。雑魚はランダムで作っている。後で改良したい
+		    		fighter[i] = new Fighter();
+		    		fighter[i].inputData(fighter[i].makeRandomString());
+		    		//System.out.println(fighter[i].FighterString);
+		    	}
+		    	//Fighter fighter[j] = new Fighter();
+		    	//Fighter fighter[i] = new Fighter();
+		    	int j = 0;
+		    	for (j =0; j < fighterNumber ; j ++) {
+			    	for (i = j+1; i < fighterNumber; i ++) {
+				    	//System.out.println("j:" + j + " i:" + i);
+				    	fighter[j].resetMyDamage();
+				    	fighter[i].resetMyDamage();
+				    	//fighter[j].ResetAllMyself();
+				    	//fighter[i].ResetAllMyself();
+				    	//fighter[j].InputData("ZzZzZzy998Y8Z9yZ9Yy8z 9Y8zYZ98 YzY9 Yz9zy8 z9 8YzY9ZzZzy9Y9Y Zy9z9ZyYzyZ9Yz9YzZ");
+			    		//fighter[j].InputData(fighter[j].MakeRandomString());
+				    	//fighter[i].InputData(fighter[i].MakeRandomString());
+				    	
+				    	//System.out.println("hello world!");
+				    	Battle  battle = new  Battle();
+					    	//闘いのループ
+				    	while (fighter[j].damage< fighter[j].dataLength || fighter[i].damage < fighter[i].dataLength){
+				    		/*
+				    		System.out.println(fighter[j].damage + ":" + fighter[i].damage);
+				        	System.out.println(fighter[j].FighterString.substring(fighter[j].damage, fighter[j].dataLength));
+				        	System.out.println(fighter[i].FighterString.substring(fighter[i].damage, fighter[i].dataLength));
+				        	System.out.println("");
+				        	*/
+				        	if (fighter[j].damage == fighter[j].dataLength || fighter[i].damage == fighter[i].dataLength) break;
+					    	battle.fight(fighter[j].getPresentLetter(),	fighter[i].getPresentLetter());
+					    	if (battle.hantei == 1) {
+					    		fighter[i].damage ++;
+					    	} else if (battle.hantei == 2) {
+					    		fighter[j].damage ++;
+					    	} else if (battle.hantei == 3) {
+					    		fighter[j].damage ++;
+					    		fighter[i].damage ++;
+					    	} else {
+					    		System.out.println("例外が発生しました");
+					    	}
+				    	}
+					    	
+				    	//勝敗の表示
+				    	if (fighter[j].damage == fighter[i].damage) {
+				    		//System.out.println("引き分け");
+				    		fighter[j].draw ++;
+				    		fighter[i].draw ++;
+				    	} else if(fighter[j].damage < fighter[i].damage) {
+				    		//System.out.println("チャンピオンの勝ち");
+				    		fighter[j].win ++;
+				    		fighter[i].lose ++;
+				    	} else if (fighter[j].damage > fighter[i].damage) {
+				    		//System.out.println("挑戦者の勝ち" + " : " + fighter[j].damage + "/" +  fighter[i].damage);
+				    		//System.out.println(fighter[i].FighterString + "  " + fighter[i].damage);
+				    		fighter[j].lose ++;
+				    		fighter[i].win ++;
+				    	} else {
+				    		System.out.println("勝敗の判定に例外が発生しました");
+				    	}
+		
 			    	}
+			    	//battle.PrintKekka();
+			    	//System.out.println((double)fighter[j].win/(double)(kaisu- fighter[j].draw) + "  :  " + fighter[j].draw + " draw");
+			    	//System.out.println((double)fighter[j].win/(double)(battleKaisu- fighter[j].draw));
+			    }
+		    	double top = 0.0 ,second = 0.0;
+		    	int topFighter = 0, secondFighter = 0;
+		    	for(i = 0;i < fighterNumber; i++) {
+		    		if ( i == 0) printIt(fileName,"number:" + i + " win:" + fighter[i].win + " lose:" + fighter[i].lose + " draw:" + fighter[i].draw + "\t"+ fighter[i].winningRate(fighterNumber, i));
+		    		if (fighter[i].winningRate(fighterNumber, i) > top) {
+		    			second = top;
+		    			secondFighter = topFighter;
+		    			top = fighter[i].winningRate(fighterNumber, i);
+		    			topFighter = i;
+		    		}
 		    	}
-			    	
-		    	//勝敗の表示
-		    	if (fighter[j].damage == fighter[i].damage) {
-		    		//System.out.println("引き分け");
-		    		fighter[j].draw ++;
-		    		fighter[i].draw ++;
-		    	} else if(fighter[j].damage < fighter[i].damage) {
-		    		//System.out.println("チャンピオンの勝ち");
-		    		fighter[j].win ++;
-		    		fighter[i].lose ++;
-		    	} else if (fighter[j].damage > fighter[i].damage) {
-		    		//System.out.println("挑戦者の勝ち" + " : " + fighter[j].damage + "/" +  fighter[i].damage);
-		    		//System.out.println(fighter[i].FighterString + "  " + fighter[i].damage);
-		    		fighter[j].lose ++;
-		    		fighter[i].win ++;
-		    	} else {
-		    		System.out.println("勝敗の判定に例外が発生しました");
-		    	}
-
-	    	}
-	    	//battle.PrintKekka();
-	    	//System.out.println((double)fighter[j].win/(double)(kaisu- fighter[j].draw) + "  :  " + fighter[j].draw + " draw");
-	    	//System.out.println((double)fighter[j].win/(double)(battleKaisu- fighter[j].draw));
-	    }
-    	double top = 0.0 ,second = 0.0;
-    	int topFighter = 0, secondFighter = 0;
-    	for(i = 0;i < fighterNumber; i++) {
-    		if ( i == 0) System.out.println("number:" + i + " win:" + fighter[i].win + " lose:" + fighter[i].lose + " draw:" + fighter[i].draw + "\t"+ fighter[i].winningRate(fighterNumber, i));
-    		if (fighter[i].winningRate(fighterNumber, i) > top) {
-    			second = top;
-    			secondFighter = topFighter;
-    			top = fighter[i].winningRate(fighterNumber, i);
-    			topFighter = i;
-    		}
-    	}
-    	if(topFighter == 0) System.out.println("-----Champion is Champion!-----");
-    	//System.out.println("Number" + topFighter + "\t rate =" + top + ": " + "Number" + secondFighter + "\t rate =" + second);
-    	//System.out.println(fighter[topFighter].FighterString);
-//    	System.out.println("Number" + secondFighter + "\t rate =" + second);
-    	//System.out.println(fighter[secondFighter].FighterString);
-    	//System.out.println("child");
-    	System.out.println(newFighter.makeChild(fighter[topFighter].FighterString,fighter[secondFighter].FighterString));
+		    	if(topFighter != 0) printIt(fileName,"----- New champion was born! -----");
+		    	fighter[0].inputData(newFighter.makeChild(fighter[0].FighterString, fighter[topFighter].FighterString));
+		    	//System.out.println("Number" + topFighter + "\t rate =" + top + ": " + "Number" + secondFighter + "\t rate =" + second);
+		    	//System.out.println(fighter[topFighter].FighterString);
+		//    	System.out.println("Number" + secondFighter + "\t rate =" + second);
+		    	//System.out.println(fighter[secondFighter].FighterString);
+		    	//System.out.println("child");
+		    	//System.out.println(newFighter.makeChild(fighter[topFighter].FighterString,fighter[secondFighter].FighterString));
+		    	//filewriter.write(newFighter.makeChild(fighter[topFighter].FighterString,fighter[secondFighter].FighterString));
+		    	//printIt(fileName, newFighter.makeChild(fighter[topFighter].FighterString,fighter[secondFighter].FighterString));
+		    	printIt(fileName, fighter[0].FighterString);
+		    	
+		    }
+		filewriter.close();
     }
     
+    public static String toString(Date d) {
+    	  SimpleDateFormat f = new SimpleDateFormat("yyyyMMdd_HHmm");
+    	  return f.format(d);
+    	}
+    
+    public static void printIt(String fileName, String str) throws IOException {
+		File file = new File(fileName);
+		FileWriter filewriter = new FileWriter(file,true);
+    	System.out.println(str);
+    	filewriter.write(str + "\n");
+    	filewriter.close();
     }
+
 }
 
 class Battle {
@@ -317,7 +347,7 @@ class Dna {
 	String child = "";
 	public String makeChild(String father, String mother){
 		child="";
-		child = onePointCrossing(father, mother);
+		child = twoPointCrossing(father, mother);
 		return child;
 	}
 	
@@ -337,6 +367,45 @@ class Dna {
 	    	buf.append(father.substring(crossingPosition ,father.length()));
 		}
 		child = buf.toString();
+		return child;
+	}
+	
+	public String twoPointCrossing(String father, String mother){
+		child = "";
+		if (father.length() != mother.length()) System.out.println("父と母の文字数が一致していません");
+		Random rnd = new Random();
+		int crossingPositionStart=1  , crossingPositionEnd=2;//初期値は適当
+		int random1=rnd.nextInt(father.length()); 
+		int random2=rnd.nextInt(father.length());
+		while (random1 == random2 && random1 - random2 < 2 && random2 - random1 < 2) {
+			random1 = rnd.nextInt(father.length());
+			random2 = rnd.nextInt(father.length());
+		}
+		//System.out.println("random:" + random1  + " " + random2);
+		if (random1 < random2) {
+			crossingPositionStart = random1;
+			crossingPositionEnd = random2;
+		} else if (random1 > random2){
+			crossingPositionStart = random2;
+			crossingPositionEnd = random1;
+		} else {
+			System.out.println("2点交差法において例外が発生しました");
+		}
+		
+    	StringBuffer buf = new StringBuffer();
+    	//ランダムに父と母のDNAをどっちが先にするかを決める
+		if(rnd.nextBoolean()) {
+			//父から先
+	    	buf.append(father.substring(0, crossingPositionStart ));
+	    	buf.append(mother.substring(crossingPositionStart, crossingPositionEnd));
+	    	buf.append(father.substring(crossingPositionEnd, father.length() ));
+		}else {
+			//母から先
+	    	buf.append(mother.substring(0, crossingPositionStart));
+	    	buf.append(father.substring(crossingPositionStart, crossingPositionEnd));
+	    	buf.append(mother.substring(crossingPositionEnd, mother.length() ));
+		}
+		child = buf.toString();;
 		return child;
 	}
 	

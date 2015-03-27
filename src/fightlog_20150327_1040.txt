@@ -1,0 +1,4 @@
+number:0 win:779 lose:220 draw:1	0.7797797797797797
+----- New champion was born! -----
+number:0 win:492 lose:502 draw:6	0.4949698189134809
+----- New champion was born! -----

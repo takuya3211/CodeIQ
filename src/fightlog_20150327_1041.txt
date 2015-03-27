@@ -1,0 +1,42 @@
+number:0 win:484 lose:511 draw:5	0.4864321608040201
+----- New champion was born! -----
+Yz8zZ yz9zyzz9Zy yyzz Z9ZYz8 Zyz8 9 YzZY 8y8z89Yyzy ZyZZ9 Yz9ZY 899ZYyy8Yy Y9
+number:0 win:768 lose:200 draw:32	0.7933884297520661
+----- New champion was born! -----
+Yz8zZ yz9zyzz9Zyyy zY zy9Y9Zyzy8zZzyZ8Zy ZyZy Zy   Zz8Y99ZZY9ZYZz 9YzZz  Y9
+number:0 win:854 lose:125 draw:21	0.8723186925434117
+----- New champion was born! -----
+z Z8Z Zy9Yy9yZZyyZzz8yzyZ98Zzy8zZzyZ8Zy ZyZy Zy  z8Y zZyZ z ZyyzYZ z 8Zz88 yY
+number:0 win:954 lose:32 draw:14	0.9675456389452333
+z Z8Z Zy9Yy9yZZyyZzz8yzyZ98Zzy8zZzyZ8Zy ZyZy Zy  z8YzZyZ z ZyyzYZ z8Zz88 yY
+number:0 win:935 lose:49 draw:16	0.9502032520325203
+z Z8Z Zy9Yy9yZZyyZzz8yzyZ98Zzy8zZzy8Zy ZyZy Zy  zYzZyZ z ZyyzYZ z8Zz88 yY
+number:0 win:918 lose:63 draw:19	0.9357798165137615
+z Z8Z Zy9Yy9yZZyyZzz8yzyZ98Zzy8zZzy8y ZyZy Zy  zYzZyZ z ZyzYZ z8Zz88 yY
+number:0 win:917 lose:64 draw:19	0.9347604485219164
+z Z8Z Zy9Yy9yZZyyZz8yzyZ98Zzy8zZzy8y ZyZy Zy  zYzZy z ZyzYZ z8Zz88 yY
+number:0 win:924 lose:58 draw:18	0.9409368635437881
+z Z8Z Zy9Yy9yZZyyZz8yzyZ98Zzy8zZzy8y ZyZy Zy  zYzZy z zYZ z8Zz88 yY
+number:0 win:899 lose:81 draw:20	0.9173469387755102
+z Z8Z Zy9Yy9yZZyyZzyzyZ98Zzy8zZzy8y ZyZy Zy  zYzZy z zZ z8Zz88 yY
+number:0 win:882 lose:99 draw:19	0.8990825688073395
+----- New champion was born! -----
+z Z8Z ZyZ8z9YYyY9y8YZ zyZ8YZ99Y9zZy Y9ZzyzzZ8yYY z zZ z8Zz88 yY
+number:0 win:767 lose:203 draw:30	0.790721649484536
+----- New champion was born! -----
+z Z8Z ZyZ8z9YYyY9y8YZ zyZ8YZ99Y9zZy Y9ZZ8z9 9ZYyZ8 Zy y 88 yY
+number:0 win:798 lose:175 draw:27	0.8201438848920863
+----- New champion was born! -----
+z89zy Zyy8Y YyY8zyZzy89 9 YZZy y98z Z889YyzyZZ9yZyZzY9yY99Y8y Zz8 zzZyZ98YyY9
+number:0 win:461 lose:526 draw:13	0.46707193515704154
+----- New champion was born! -----
+z98y8Z 9Y yYzZzZ9ZY8yZz9yZz888ZY zYzy8 zY 8yy 9Y y ZYzY8 Y9Y8zZ 8Z 8yYZYzZ9Y 
+number:0 win:828 lose:147 draw:25	0.8492307692307692
+----- New champion was born! -----
+z98y8Z 9Y yYzZzZ9yZ9yYy8z 88ZY zYzy8 zY 8yy 9Y y ZYzY8 Y9Y8zZ 8Z 8yYZYzZ9Y 
+number:0 win:872 lose:110 draw:18	0.8879837067209776
+----- New champion was born! -----
+z98y8Z 9Y yYzZzZ9yZY 9yY z 8Zzy99YyY9y yy 9Y y ZYzY8 Y9Y8zZ 8Z 8yYZYzZ9Y 
+number:0 win:877 lose:99 draw:24	0.8985655737704918
+----- New champion was born! -----
+z98y8ZYz99Yz88ZyyZZ8yY z 8Zzy99YyY9y yy 9Y y ZYzY8 Y9Y8zZ 8Z 8yYZYzZ9Y 
