@@ -44,3 +44,193 @@ zy Y9Y998yY9 Y yYz  ZY9 Y8Y ZyY  zYyY9Zy8zYZy8ZY8y9 88 Zz8YYy8Y988Zy88y Zy8 Yyz
 number:0 win:834 lose:161 draw:5	0.8381909547738694
 ----- New champion was born! -----
 9ZY8z9Zz88 8zyzY8z8 Z8z8 Zz8Y y  zYyY9Zy8zYZy8ZY8y9 88 Zz zZyZzYY z9Y9 9Z y9yyZ
+number:0 win:870 lose:121 draw:9	0.8779011099899092
+----- New champion was born! -----
+Y 8zyZYzY Z89ZYzzZZy9Y9ZY9YY 8z8zz8z98889ZYZy8ZY8y9 88 Zz zZ8z9Y8Z9Y9z9Z8Yy Z8y
+number:0 win:848 lose:147 draw:5	0.8522613065326633
+----- New champion was born! -----
+Y 8zyZYzY Z89ZYzzZZy9Y9ZZYzYz88zyy z98889ZYZy8ZY8y9 88 Zz zZ8z9Y8Z9Y9z9Z8Yy Z8y
+number:0 win:735 lose:253 draw:12	0.7439271255060729
+----- New champion was born! -----
+ Zz8z  Yz8z998zYZ z88Z 8ZYzYz88zyy z98889ZYZy8ZY8y9 88 Zz zZ8z9Y8Z9Y9z9Z8Yy9Y9Z
+number:0 win:799 lose:194 draw:7	0.8046324269889225
+----- New champion was born! -----
+ Zz8z  Yz8z998zYZ z88Z 8ZYzYz88zyy z98889ZYZy8ZY8y9 9 y8  zZ8z9Y8Z9Y9z9Z8Yy9Y9Z
+number:0 win:774 lose:222 draw:4	0.7771084337349398
+----- New champion was born! -----
+ Zz8z  Y zZ zzY9Z8 y9Yyz z9y zYZ Zzz98889ZYZy8ZY8y9 9 y8  zZ8z9Y8Z9Y9z9Z8Yy9Y9Z
+number:0 win:805 lose:191 draw:4	0.8082329317269076
+----- New champion was born! -----
+ Zz8z  Y zZ zzY9Z8 y9Yyz z9y zYZ Zzz98889ZYZyzyZ8YzyZZY9z8zz8Zy9Z9Y9zzZ z9zYz8 
+number:0 win:791 lose:205 draw:4	0.7941767068273092
+----- New champion was born! -----
+y8yz8Z Y zZ zzY9Z8 y9Yyz z9y zY8 zZ9Zy9 Y9Y8 yyZ 9898Zy YY9yZY8yYZ 9z8z8ZZYz8Yz
+number:0 win:904 lose:92 draw:4	0.9076305220883534
+y8yz8Z Y zZ zzY9Z8 y9Yyz z9y zY8 zZ9Zy9 Y9Y8 yyZ 9898Zy YY9yZY8yYZ 9z8z8ZZYz8Yz
+number:0 win:879 lose:115 draw:6	0.8843058350100603
+----- New champion was born! -----
+zy 8Z8YyzZYZyZyZ8y Z y zZz88 Y8Z z9 Zy9 Y9Y8 yyZ 9898Zy YY9yY Y9YZy8 zZy8  z8 z
+number:0 win:947 lose:49 draw:4	0.9508032128514057
+zy 8Z8YyzZYZyZyZ8y Z y zZz88 Y8Z z9 Zy9 Y9Y8 yyZ 9898Zy YY9yY Y9YZy8 zZy8  z8 z
+number:0 win:939 lose:55 draw:6	0.9446680080482898
+zy 8Z8YyzZYZyZyZ8y Z y zZz88 Y8Z z9 Zy9 Y9Y8 yyZ 9898Zy YY9yY Y9YZy8 zZy8  z8 z
+number:0 win:944 lose:53 draw:3	0.9468405215646941
+zy 8Z8YyzZYZyZyZ8y Z y zZz88 Y8Z z9 Zy9 Y9Y8 yyZ 9898Zy YY9yY Y9YZy8 zZy8  z8 z
+number:0 win:943 lose:57 draw:0	0.943
+----- New champion was born! -----
+9zzz Y9Y y88zYyZ9Yy Zz8 9YYyZyZZz8z9Y yz8zY8 yyZ 9898Zy YY9yY Y9YZy8 zZ8Yy z 9Z
+number:0 win:925 lose:72 draw:3	0.9277833500501504
+9zzz Y9Y y88zYyZ9Yy Zz8 9YYyZyZZz8z9Y yz8zY8 yyZ 9898Zy YY9yY Y9YZy8 zZ8Yy z 9Z
+number:0 win:943 lose:57 draw:0	0.943
+9zzz Y9Y y88zYyZ9Yy Zz8 9YYyZyZZz8z9Y yz8zY8 yyZ 9898Zy YY9yY Y9YZy8 zZ8Yy z 9Z
+number:0 win:942 lose:54 draw:4	0.9457831325301205
+9zzz Y9Y y88zYyZ9Yy Zz8 9YYyZyZZz8z9Y yz8zY8 yyZ 9898Zy YY9yY Y9YZy8 zZ8Yy z 9Z
+number:0 win:921 lose:77 draw:2	0.9228456913827655
+9zzz Y9Y y88zYyZ9Yy Zz8 9YYyZyZZz8z9Y yz8zY8 yyZ 9898Zy YY9yY Y9YZy8 zZ8Yy z 9Z
+number:0 win:917 lose:80 draw:3	0.9197592778335005
+----- New champion was born! -----
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:968 lose:31 draw:1	0.968968968968969
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:973 lose:26 draw:1	0.973973973973974
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:961 lose:37 draw:2	0.9629258517034068
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:975 lose:25 draw:0	0.975
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:958 lose:40 draw:2	0.9599198396793587
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:967 lose:31 draw:2	0.968937875751503
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:965 lose:34 draw:1	0.965965965965966
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:973 lose:25 draw:2	0.9749498997995992
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:964 lose:33 draw:3	0.966900702106319
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:965 lose:33 draw:2	0.966933867735471
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:972 lose:26 draw:2	0.9739478957915831
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:966 lose:30 draw:4	0.9698795180722891
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:972 lose:25 draw:3	0.9749247743229689
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:976 lose:24 draw:0	0.976
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:976 lose:24 draw:0	0.976
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:968 lose:31 draw:1	0.968968968968969
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:976 lose:23 draw:1	0.9769769769769769
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:954 lose:44 draw:2	0.9559118236472945
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:964 lose:35 draw:1	0.964964964964965
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:962 lose:36 draw:2	0.9639278557114228
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:954 lose:42 draw:4	0.9578313253012049
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:966 lose:31 draw:3	0.9689067201604814
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:973 lose:25 draw:2	0.9749498997995992
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:962 lose:37 draw:1	0.9629629629629629
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:957 lose:39 draw:4	0.9608433734939759
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:958 lose:38 draw:4	0.9618473895582329
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:968 lose:31 draw:1	0.968968968968969
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:969 lose:29 draw:2	0.9709418837675351
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:961 lose:37 draw:2	0.9629258517034068
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:965 lose:31 draw:4	0.9688755020080321
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:962 lose:37 draw:1	0.9629629629629629
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:964 lose:31 draw:5	0.9688442211055276
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:962 lose:33 draw:5	0.9668341708542714
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:971 lose:28 draw:1	0.9719719719719719
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:955 lose:40 draw:5	0.9597989949748744
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:976 lose:23 draw:1	0.9769769769769769
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:969 lose:29 draw:2	0.9709418837675351
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:971 lose:27 draw:2	0.9729458917835672
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:966 lose:29 draw:5	0.9708542713567839
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:978 lose:19 draw:3	0.9809428284854563
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:974 lose:25 draw:1	0.974974974974975
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:964 lose:34 draw:2	0.9659318637274549
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:958 lose:39 draw:3	0.9608826479438315
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:964 lose:36 draw:0	0.964
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:960 lose:36 draw:4	0.963855421686747
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:969 lose:29 draw:2	0.9709418837675351
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:956 lose:43 draw:1	0.9569569569569569
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:966 lose:31 draw:3	0.9689067201604814
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:965 lose:33 draw:2	0.966933867735471
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:966 lose:29 draw:5	0.9708542713567839
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:967 lose:33 draw:0	0.967
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:957 lose:42 draw:1	0.9579579579579579
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:961 lose:38 draw:1	0.9619619619619619
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:959 lose:39 draw:2	0.9609218436873748
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:970 lose:27 draw:3	0.9729187562688064
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:973 lose:26 draw:1	0.973973973973974
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:972 lose:27 draw:1	0.972972972972973
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:970 lose:30 draw:0	0.97
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:960 lose:37 draw:3	0.9628886659979939
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:968 lose:30 draw:2	0.969939879759519
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:959 lose:41 draw:0	0.959
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:967 lose:31 draw:2	0.968937875751503
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:960 lose:39 draw:1	0.960960960960961
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:970 lose:29 draw:1	0.970970970970971
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:962 lose:34 draw:4	0.9658634538152611
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:967 lose:28 draw:5	0.9718592964824121
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:967 lose:32 draw:1	0.9679679679679679
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:969 lose:31 draw:0	0.969
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:963 lose:35 draw:2	0.9649298597194389
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:966 lose:34 draw:0	0.966
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:967 lose:29 draw:4	0.9708835341365462
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
+number:0 win:964 lose:33 draw:3	0.966900702106319
+Y9zZyZ9Y y88zYyZ9Yy Zz8Zz 9Yy Z9zYZz8y9Y8yyzzZ Zz8 yZy8Y98Z9 ZZzY8 zy8Zz8 y ZzZ
